@@ -13,7 +13,7 @@ h1 {
     color: gold;
 }
 
-img {
+main img {
     width: 200px;
     height: auto;
     border: 1px solid rgb(0, 0, 0);
@@ -22,16 +22,16 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid org (0, 0, 0, 0.2);
+    border: 1px solid blue(0, 0, 0, 0.2);
     padding: 1em;
-    color: #333;
-    text-align: center;
+    background-color: #000;
+
 }
 
 aside img {
