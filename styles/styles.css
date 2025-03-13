@@ -3,33 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
-  --heading-background-color: rgb(18, 20, 10);
-  --heading-text-color: #333;
-  --heading-font: 'Montserrat', Helvetica, sans-serif;
-  --padding: 1rem;
-  --border: 1px solid rgb(0 0 0 / 0.1);
+    --heading-background-color: rgb(18, 20, 10);
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 /* Some example variable use in the declarations. */
 
 h1 {
-  background-color: var(--heading-background-color);
-  color: var(--heading-text-color);
-  font-family: var(--heading-font);
-  padding: var(--padding);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
 }
 
 aside {
-  margin: 10px auto;
-  padding: var(--padding);
-  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+    margin: 10px auto;
+    padding: var(--padding);
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
 }
+
 nav {
     background-color: darkblue;
     padding: 10px;
-    max-width: 1200px; 
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav a {
@@ -44,7 +46,7 @@ h1 {
 }
 
 main {
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -52,7 +54,7 @@ main {
 main img {
     /*you most likely will have other declarations here*/
     float: right;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     border: 1px solid rgb(0, 0, 0);
     padding: 2px;
@@ -61,26 +63,27 @@ main img {
 
 p {
     padding: 0;
-    max-width: 800px; 
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .box {
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / .1);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
 
 aside {
-    max-width: 300px; 
+    max-width: 300px;
     width: 20em;
-    margin: 1em auto; 
+    margin: 1em auto;
     padding: 1em;
     background-color: burlywood;
     position: relative;
 }
+
 aside h2 {
     position: absolute;
     top: 47px;
@@ -88,15 +91,14 @@ aside h2 {
 }
 
 aside img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
 
 footer {
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 1em auto 0;
     border-top: 1px solid #000;
     text-align: center;
     padding: 10px;
 }
-             /* Class selector */
