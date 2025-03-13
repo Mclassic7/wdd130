@@ -78,6 +78,7 @@ aside {
     margin: 1em auto; 
     padding: 1em;
     background-color: burlywood;
+    position: relative;
 }
 aside h2 {
     position: absolute;
