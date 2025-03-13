@@ -50,6 +50,7 @@ main {
 }
 
 main img {
+    /*you most likely will have other declarations here*/
     float: right;
     max-width: 100%; 
     height: auto;
