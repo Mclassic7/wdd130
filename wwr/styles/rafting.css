@@ -64,6 +64,12 @@ main img {
     margin-bottom: 1rem;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 section {
     margin-bottom: 2rem;
 }
