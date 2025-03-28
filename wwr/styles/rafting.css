@@ -16,11 +16,15 @@ header {
     background-color: #c5b4e3;
     padding: 20px;
     text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Two columns: logo and navigation */
+    align-items: center;
 }
 
 .logo-box {
-    display: inline-block;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -54,6 +58,14 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for the hero image */
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .hero img {
     width: 100%;
     height: 200px;
@@ -64,12 +76,16 @@ nav ul li a:hover {
 section {
     text-align: center;
     padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
 }
 
 section h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
     margin-bottom: 15px;
+    grid-column: span 2; /* Span across two columns */
 }
 
 section img {
@@ -88,10 +104,14 @@ article {
 /* Adventure Gallery */
 section:last-child {
     background: #eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid for images */
+    gap: 20px;
+    padding: 20px;
 }
 
 section:last-child img {
-    width: 200px;
+    width: 100%;
     margin: 10px;
     border-radius: 10px;
 }
@@ -99,6 +119,7 @@ section:last-child img {
 section:last-child p {
     font-size: 16px;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Footer */
@@ -108,9 +129,14 @@ footer {
     padding: 20px;
 }
 
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .sociallinks img {
     width: 30px;
-    margin: 0 10px;
     transition: 0.3s;
 }
 
