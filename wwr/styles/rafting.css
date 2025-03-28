@@ -1,26 +1,10 @@
-:root {
-    --background-color: #caf0f8;
-    --text-color: #03045e;
-    --header-footer-background: #0077b6;
-    --header-footer-text: #fff;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Oswald", sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-
 header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Two columns: one for the logo and one for the navigation */
+    align-items: center; /* Vertically center the content */
     background: var(--header-footer-background);
     color: var(--header-footer-text);
-    padding: 1rem 0;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -33,67 +17,19 @@ header .logo-box {
 header .logo {
     width: 50px;
     height: auto;
-    margin-right: 1rem;
-}
-
-header h1 {
-    font-size: 2rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    padding: 1rem 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
+    justify-content: flex-end; /* Align navigation links to the right */
+    gap: 1rem; /* Add spacing between navigation links */
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li a {
     color: var(--header-footer-text);
     text-decoration: none;
     font-size: 1.2rem;
-}
-
-main {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-main img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 1rem;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    float: right; /* Added float property */
-}
-
-section {
-    margin-bottom: 2rem;
-}
-
-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-section p {
-    margin-bottom: 1rem;
-}
-
-footer {
-    background: var(--header-footer-background);
-    color: var(--header-footer-text);
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem; /* Corrected margin-top value */
 }
