@@ -30,7 +30,7 @@ form {
 form h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     color: #0077b6; /* Medium blue for heading */
 }
 
@@ -89,7 +89,7 @@ form button:hover {
     }
 
     form h1 {
-        font-size: 20px;
+        font-size: 50px;
     }
 
     form input,
