@@ -73,9 +73,15 @@ input[type="checkbox"] {
 button {
     margin: 1rem;
     background-color: navy;
-    color: #fff;
+    color: #faf2f2;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+}
+
+placeholder{
+    color: #999;
+    font-size: 1.2rem;
+    font-style: italic;
 }
