@@ -243,3 +243,100 @@ button:hover {
     font-weight: 400;
     font-style: normal;
 }
+/* General Styles */
+body {
+    font-family: "Lora", serif; /* Consistent font for the entire site */
+    font-size: 1.2em; /* Base font size */
+    color: #03045e; /* Dark blue for text */
+    background-color: #caf0f8; /* Light blue for background */
+    line-height: 1.6; /* Consistent line spacing */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif; /* Uniform font for headings */
+    color: #0077b6; /* Medium blue for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem; /* Largest heading */
+}
+
+h2 {
+    font-size: 2rem; /* Medium heading */
+}
+
+h3 {
+    font-size: 1.5rem; /* Smallest heading */
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem; /* Uniform font size for paragraphs */
+    color: #03045e; /* Dark blue for text */
+    margin-bottom: 15px;
+    text-align: justify; /* Align text uniformly */
+}
+
+/* Images */
+img {
+    max-width: 100%; 
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for all images */
+    display: block;
+    margin: 0 auto; /* Center images */
+}
+
+/* Hero Section */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for the hero image */
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 800px; /* Limit hero image width */
+    height: auto;
+    object-fit: cover; /* Ensure the image fits nicely */
+}
+
+.hero-text {
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 300px; /* Uniform image size for sections */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #0077b6; /* Medium blue for footer background */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 1rem;
+}
