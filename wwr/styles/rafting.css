@@ -18,7 +18,7 @@ header {
     padding: 20px;
     text-align: center;
     display: grid;
-    grid-template-columns: auto 1fr; /* Two columns: logo and navigation */
+    grid-template-columns: 1fr; /* Two columns: logo and navigation */
     align-items: center;
 }
 
@@ -108,7 +108,7 @@ article {
 section:last-child {
     background: #90e0ef; /* Light blue for gallery background */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid for images */
+    grid: template columns 4px; /* Responsive grid for images */
     gap: 20px;
     padding: 20px;
 }
